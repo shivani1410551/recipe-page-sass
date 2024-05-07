@@ -1,0 +1,44 @@
+.recipe-info {
+  header {
+    h1 {
+      font-family: $font-family;
+      font-weight: map-get($map: $font-weight, $key: "bold");
+      font-size: 2.5rem;
+      color: $Dark-Charcoal;
+      padding-bottom: 1rem;
+    }
+    p {
+      font-family: $font-family;
+      font-weight: map-get($map: $font-weight, $key: "regular");
+      padding-bottom: 10px;
+      color: $Wenge-Brown;
+    }
+    .prep-info {
+      background-color: $Rose-White;
+      max-width: 100%;
+      margin-block: 1rem;
+      border-radius: 10px;
+      h2 {
+        color: $Dark-raspberry;
+        padding-left: 1rem;
+        padding-block: 1rem;
+        font-family: $font-family;
+      }
+      .recipe-step {
+        padding-inline: 2rem;
+        li {
+          padding-bottom: 20px;
+          color: grey;
+          font-family: $font-family;
+          span {
+            padding-left: 15px;
+            color: $Wenge-Brown;
+            font-weight: map-get($map: $font-weight, $key: "bolder");
+            font-size: 1rem;
+            font-family: $font-family;
+          }
+        }
+      }
+    }
+  }
+}
